@@ -3,10 +3,36 @@
 ---
 @charset "utf-8";
 
+.intro{
+	background: url(../images/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}	
 
+p.padding{
+	padding-bottom: 500px;
+}
+
+h1{
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+footer{
+	text-align:center;
+}
+
+ul{
+	text-align:center;
+	list-style-position: inside;
+}
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -15,7 +41,7 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #ffffff;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -23,10 +49,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1200px;
 
 $on-palm:          600px;
-$on-laptop:        800px;
+$on-laptop:        1200px;
 
 
 
