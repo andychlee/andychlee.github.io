@@ -1,16 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <title>Andy Lee</title>
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-</head>
-<body>
-	<h1>Hi, I'm Andy Lee</h1>
-	<p>Using Bootstrap!<p>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-</body>
+    
+    
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href=#top class="navbar-brand">Andy Lee</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="dropdown">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="/resources">Resources</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <a name="top"></a>
+        <div class="titlepage">
+            <span>
+                <h1>Andy Lee</h1>
+                <p>Software Engineering Student at the University of Waterloo</p>
+                <!-- add github, email, contact and resume--> 
+            </span>
+        </div>
+        
+        <a name="about-me"></a>
+        <div id = "aboutme" class="page">
+        <div class="container">
+            <div class="row">
+                <h1>About Me</h1>
+                <div class="col-xs-12">
+                <p>Hi! I'm a second year Software Engineering student at the University of Waterloo. I have a passion for learning new technologies <!-- add a link that shows different technologies for people to explore --> and skills. 
+                
+                I also enjoy other activities such as playing piano, solving puzzles and playing Go. <!-- add links for each object -->
+                </p>
+                
+                </div>
+            </div>    
+        </div> 
+        </div>
+        
+        <a name="projects"></a>
+        <div class="page">
+        <div class="container">
+            <div class="row">
+                <h1>Projects</h1>
+                <div class="col-sm-12">
+                    <h2>Android GPS/StepCounter</h2>
+                    <ul>
+                        <li>Android application that displays user movement on a map</li>
+                        <li>Utilized event-driven architecture through the use of Event Handlers and Listeners in Android </li>
+                        <li>Implemented step and direction detection using Android Sensors API</li>
+                        <li>Used A* search algorithm to find shortest path from user location to destination</li>
+                        <li>Developed with Java and Android SDK</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">    
+                <div class="col-sm-12">
+                    <h2>Checker-Framework</h2>
+                    <ul>
+                        <li>Undergraduate Research Project supervised by Prof. Werner Dietl</li>
+                        <li>Designed new type system to help users with non-deterministic type structures (Hashmaps) in Java</li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+        </div>
+            
+        <a name="skills"></a>
+        <div class="page">
+        <div class="container">
+            <div class="row">
+                <h1>Skills</h1>
+                <div class="col-md-4 col-sm-12">
+                    <h3>Languages</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h3>Web Development</h3>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h3>Tools</h3>
+                        <ul>
+                            <li>Git</li>
+                            <li>Linux (Ubuntu)</li>
+                            <li>LaTeX</li>
+                            <li>Android SDK</li>
+                        </ul>
+                </div>
+            </div>    
+        </div>
+        </div>
+        
+        <a name="education"></a>
+        <div class="page">
+        <div class="container">
+            <div class="row">
+                <h1>Education</h1>
+                    <h2>Software Engineering | University of Waterloo</h2>
+                    <ul>
+                        <li>Expected Graduation: 2020</li>
+                        <li>Cumulative GPA: 4.00/4.00 (Average 95.3%)</li>
+                        <li>Ranked 1st in class</li>
+                        <!--Add course notes, if I ever get around doing them..-->
+                    </ul>
+                <div class="col-md-6 col-sm-12">   
+                    <!-- make all the terms dropdown-->
+                    <h3>1st Year, Term A</h3>
+                    <ul>
+                        <li>MATH 117 - Calculus 1 for Engineering</li>
+                        <li>ECE 105 - Physics of Electrical Engineering 1</li>
+                        <li>ECE 140 - Linear Circuits</li>
+                        <li>ECE 150 - Fundamentals of Programming</li>
+                        <li>CHE 102 - Chemistry for Engineers</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h3>1st Year, Term B</h3>
+                    <ul>
+                        <li>MATH 119 - Calculus 2 for Engineering</li>
+                        <li>ECE 103 - Discrete Mathematics</li>
+                        <li>ECE 106 - Physics of Electrical Engineering 2</li>
+                        <li>ECE 124 - Digital Circuits and Systems</li>
+                        <li>ECE 155 - Engineering Design with Embedded Systems</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h3>2nd Year, Term A</h3>
+                    <ul>
+                        <li>MATH 136 - Linear Algebra 1 for Honours Mathematics</li>
+                        <li>STAT 206 - Statistics for Software Engineering</li>
+                        <li>CS 241 - Foundations of Sequential Programs</li>
+                        <li>SE 212 - Logic and Computation</li>
+                        <li>ECE 222 - Digital Computers</li>
+                        <li>ENGL 109 - Introduction to Academic Writing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="footer">
+            <span>
+                <p> Created using HTML/CSS and Bootstrap
+                    
+                </p>
+                <p>
+                    © Andy Lee 2016
+                </p>
+            </span>        
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    </body>
 </html>
